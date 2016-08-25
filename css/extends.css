@@ -113,7 +113,6 @@ ol, ul {
 }
 #nav li:hover ul a:link{
     background-color: inherit !important;
-    color: #fff !important;
     width: 110px;
     font-size: 12px;
 }
