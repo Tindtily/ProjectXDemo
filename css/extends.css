@@ -1,0 +1,119 @@
+.panel {
+    margin: 10px 10px 10px 15px !important;
+    width: auto !important;
+}
+
+/*.datagrid tr:hover td {
+    background-color: #eb8c00;
+    color: #000;
+}*/
+
+.morecontacts h2, .rhcontacts .rhtitle, .RHContacts .RHTitle, .datagrid a {
+    color: #000;
+}
+
+.datagrid a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.datagrid-group {
+    cursor: pointer;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+.datagrid-group {
+    height: 25px;
+    overflow: hidden;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    white-space: nowrap;
+    word-break: normal;
+}
+
+.datagrid-group-title, .datagrid-group-expander {
+    display: inline-block;
+    vertical-align: bottom;
+    height: 100%;
+    line-height: 25px;
+    padding: 0 4px;
+}
+
+.datagrid-group-title {
+    position: relative;
+}
+
+.datagrid-group-expander {
+    width: 30px;
+    text-align: center;
+    padding: 0
+}
+
+.datagrid-row-expander {
+    margin: 4px 0;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    cursor: pointer
+}
+
+.datagrid-cell-c6-_id {
+    width: 71px
+}
+
+.datagrid-cell-c6-Subject {
+    width: 992px
+}
+
+.datagrid-cell-c6-Category {
+    width: auto
+}
+
+.datagrid-cell-c6-Product {
+    width: auto
+}
+
+.datagrid-cell-c6-DocStatus {
+    width: auto
+}
+
+.datagrid-cell-c6-CreatedBy {
+    width: auto
+}
+
+.datagrid-cell-c6-CreatedDate {
+    width: auto
+}
+
+#nav a {
+    background-position: -236px 0;
+    margin:0 12px;
+    width:100px;
+    line-height:20px;
+}
+#nav li.nav1:hover a, #nav li.nav1 a:hover {
+    background-position: -236px -80px;
+    background-repeat: no-repeat;
+}
+#nav>li{
+    background-color:#fff
+}
+#nav li:hover ul{
+    padding-top: 1px !important;
+    margin-left: 13px;
+    border: 0;
+    border-bottom: 4px solid #dc6900;
+    width:110px;
+}
+#nav li:hover ul li{
+    width:auto;
+}
+#nav li:hover ul a:link{
+    background-color: inherit !important;
+    color: #fff !important;
+    width: 110px;
+    font-size: 12px;
+}
